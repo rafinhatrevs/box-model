@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5EFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__quadro {
+    background-color: #CDC1FF;
+}
+
+.quadro {
+    background-image: url(butterfly.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border: 10px solid #A594F9;
+    margin: 20px;
+    box-shadow: inset 5px 5px 20px 20px #E5D9F2;
+}
+
+p {
+    text-align: center;
+    color: #433878;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+}
